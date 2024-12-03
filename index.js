@@ -128,6 +128,11 @@ else if (grade=>70 && grade<80){
 //      if string length is more than 5 return the string has more than 5 characters
 //       if string length is less than 1 return the string has nothing
 //       if string length is equal to 1 return the string has 1 character
+const length = 10
+if (length == "string"){
+   console.log("12");
+   
+}
 // Exercise 7 j
  
 //  3) Write conditional expressions to satisfy the following safety rules:
@@ -150,7 +155,13 @@ else if (grade=>70 && grade<80){
 //     if role is 'Employee' return 'Hello'
 //     if role is 'Director' return 'Greetings'
 //     if role is '' return 'Please provide role'
-//     else return 'Hi'
+//     else return 'Hi';
+const employee = hello 
+if (
+  employee>hello){
+   console.log("hello");
+   
+}
  
 // Exercise 8 j
  
