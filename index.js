@@ -33,30 +33,23 @@ if (giveNumber % 3 != 0 || giveNumber % 5 != 0) {
  
 // Sample numbers : -5, -2, -6, 0, -1
 // Output : 0
-const num1 = -5 
-const num2 = -2
-const num3 = -6
-const num4 = 0 
-const num5 = -1
+const a = -5;
+const b = -2;
+const c = -6;
+const d = 0;
+const f = -1;
 
-
-
-if (num1){
-    num1 > num2 &&
-    num1 > num3 &&
-    num1 > num4 &&
-    num1 > num5 
+if (a > b && a > c && a > d && a > f) {
+  console.log(a);
+} else if (b > a && b > c && b > d && b > f) {
+  console.log(b);
+} else if (c > a && c > b && c > d && c > f) {
+  console.log(c);
+} else if (d > a && d > c && d > b && d > f) {
+  console.log(d);
+} else {
+  console.log(f);
 }
-else if (num2){
-    num2 > num2 &&
-    num2 > num3 &&
-    num2 > num4 &&
-    num2 > num5
-}
-
-
-console.log("0")
-
 // Exercise 3
  
 // Write a JavaScript program that accept two integers and display the larger.
@@ -65,9 +58,6 @@ console.log("0")
  
 // Sample numbers : 2,5
 // Output : 5
-const z1 = 2, z2 = 5 
-
-console.log(typeof "number " == "numbers")
 
 // Exercise 4
  
@@ -76,7 +66,20 @@ console.log(typeof "number " == "numbers")
  
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
-
+const x = 3;
+const y = -7;
+const z = 2;
+if (x > 0 && y > 0 && z > 0) {
+  alert("The sign is +");
+} else if (x < 0 && y < 0 && z < 0) {
+  console.log("The sign is -");
+} else if (x > 0 && y < 0 && z < 0) {
+  console.log("The sign is +");
+} else if (x < 0 && y > 0 && z < 0) {
+  console.log("The sign is +");
+} else {
+  console.log("The sign is -");
+}
 // Exercise 5
  
 // Choose the correct comparison operator to console.log true, when x is greater than y.
@@ -157,11 +160,6 @@ if (length == "string"){
 //     if role is '' return 'Please provide role'
 //     else return 'Hi';
 const employee = hello 
-if (
-  employee>hello){
-   console.log("hello");
-   
-}
  
 // Exercise 8 j
  
